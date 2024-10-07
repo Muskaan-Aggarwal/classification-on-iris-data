@@ -1,0 +1,101 @@
+/* public/styles.css */
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in width */
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 100px; /* Space for the fixed navbar */
+    background: linear-gradient(140deg,#F6FB7A,#BEDC74,#88D66C,#73BBA3);
+    line-height: 1.6; /* Increased line height for readability */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #F6E96B;
+    padding: 40px;
+    border-radius: 15px; /* More pronounced rounded corners */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    border: 2px solid #BEDC74; /* Light green border */
+}
+
+h1 {
+    text-align: center;
+    color: #387F39; /* Dark green for the heading */
+    font-size: 2.8em; /* Increased heading size */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif; /* Elegant font */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #387F39; /* Consistent dark green for labels */
+    font-weight: bold; /* Bold labels for emphasis */
+    font-size: 1.1em; /* Larger font for labels */
+}
+
+input {
+    width: 100%;
+    padding: 15px; /* Increased padding for comfort */
+    margin-bottom: 15px;
+    border: 2px solid #A2CA71; /* Medium green for input borders */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input:focus {
+    border-color: #387F39; /* Dark green on focus */
+    box-shadow: 0 0 5px rgba(56, 127, 57, 0.5); /* Shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #914F1E; /* Dark green for button */
+    border: none;
+    color: white;
+    border-radius: 10px; /* More rounded corners */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em; /* Larger button text */
+    transition: background-color 0.7s, transform 0.4s; /* Smooth transitions */
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: #216c22; /* Lighten the button on hover */
+    transform: scale(1.1); /* Lift effect on hover */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em; /* Larger result text */
+    text-align: center;
+    color: #387F39; /* Dark green for result text */
+    padding: 20px; /* Add padding around result */
+    border: 2px solid #BEDC74; /* Border around result box */
+    border-radius: 10px; /* More rounded corners */
+    background-color: rgba(162, 202, 113, 0.2); /* Light background for result box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 20px; /* Space below result box */
+}
+
+/* Additional styles for visual interest */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #555;
+    width: 100%; /* Make sure the footer spans the full width */
+}
+
+.footer-text {
+    font-size: 0.9em; /* Smaller text for footer */
+    text-align: center; /* Ensure the text inside is centered */
+    margin: 0 auto; /* Center align the text */
+}

@@ -1,0 +1,23 @@
+{
+  "name": "iris_classification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie": "^0.7.2",
+    "express": "^4.21.0",  
+    "node-fetch": "^3.3.2",
+    "qs": "^6.13.0" 
+  },
+  "resolutions": {
+    "cookie": "^0.7.2"
+  }
+}
+
